@@ -1,0 +1,171 @@
+[
+  {
+    "title": "007: The World is Not Enough",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_007-worldisnotenough.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-02"
+      },
+      {
+        "name": "Custom Cover",
+        "country": "AU",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_007-worldisnotenough_au.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-02"
+      }
+    ]
+  },
+  {
+    "title": "1080° Snowboarding",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Custom Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_1080snowboarding.jpg",
+        "creator": "slash000",
+        "date": "2025-09-02"
+      },
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_1080snowboarding-alt.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-02"
+      },
+      {
+        "name": "Custom Cover",
+        "country": "BR",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_1080snowboardingpal_eu.jpg",
+        "creator": "slash000",
+        "date": "2025-09-02"
+      }
+    ]
+  },    
+  {
+    "title": "AeroFighters Assault",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_aerofightersassault.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-02"
+      }
+    ]
+  }, 
+  {
+    "title": "Aero Gauge",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Custom Cover",
+        "country": "AU",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_aerogauge_au.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-02"
+      }
+    ]
+  },  
+  {
+    "title": "All Star Baseball 2000",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_allstarbaseball2000.jpg",
+        "creator": "slash000",
+        "date": "2025-09-02"
+      }
+    ]
+  },   
+  {
+    "title": "All Star Baseball '99",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_allstarbaseball99.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-03"
+      },
+      {
+        "name": "Custom Cover",
+        "country": "AU",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_allstarbaseball99_au.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-03"
+      }
+    ]
+  },  
+  {
+    "title": "Armorines: Project S.W.A.R.M.",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Custom Cover",
+        "country": "GB",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_amorines-projectswarm_eu.jpg",
+        "creator": "TheValeman",
+        "date": "2025-09-03"
+      },
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_armorines.jpg",
+        "creator": "slash000",
+        "date": "2025-09-03"
+      }
+    ]
+  }, 
+  {
+    "title": "Army Men Air Combat",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_armymenaircombat.jpg",
+        "creator": "slash000",
+        "date": "2025-09-04"
+      }
+    ]
+  },   
+  {
+    "title": "Army Men: Sarge's Heroes",
+    "console": "Nintendo 64",
+    "variants": [
+      {
+        "name": "Retail Cover",
+        "country": "US",
+        "preview": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nintendo_64/n64_armymensargesheroes.jpg",
+        "creator": "larryinc64",
+        "date": "2025-09-04"
+      }
+    ]
+  },  
+  
+  
+  
+  
+  {
+    "title": "TEMPLATE",
+    "console": "TEMPLATE",
+    "variants": [
+      {
+        "name": "TEMPLATE",
+        "country": "TEMPLATE",
+        "preview": "TEMPLATE",
+        "creator": "TEMPLATE",
+        "date": "2025-09-02"
+      }
+    ]
+  }
+]
