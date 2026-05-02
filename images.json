@@ -363,60 +363,399 @@
 
 
         {
-          "id": "oot",
-          "title": "Ocarina of Time",
+          "id": "9",
+          "title": "The Legend of Zelda: Ocarina of Time",
           "year": 1998,
           "aliasOf": null,
           "regions": [
             {
-              "region": "US/EU",
-              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
-              "screenshots": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Key Visual", "type": "artwork" },
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Kokiri Forest", "type": "screenshot" }
-              ],
+              "region": "Global",
+              "thumb": "cc3ca33f-a617-4352-8b9e-0da8d5b3abd9",
               "announcements": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Feature Banner" }
+                { "id": "cc3ca33f-a617-4352-8b9e-0da8d5b3abd9", "title": "Banner" }
               ],
+"screenshots": [
+  { "id": "393aad80-e324-44ec-8d74-fa7809a9e84f", "title": "Title Theme", "type": "screenshot" },
+  { "id": "5e7866ca-fac7-4716-8039-8b8928dc4107", "title": "Title Theme (JP)", "type": "screenshot" },
+  { "id": "e1c53ccf-aee9-4b52-afca-66d51f1b05a4", "title": "Ganondorf Appears", "type": "screenshot" },
+  { "id": "8d4ff307-9397-4260-8fd4-f2526d180316", "title": "Deku Tree", "type": "screenshot" },
+  { "id": "4a2f9704-5cfe-46e3-805d-eaba35a9c323", "title": "Fairy Flying", "type": "screenshot" },
+  { "id": "23df35f5-0237-4e85-aca3-2f8702ece246", "title": "House", "type": "screenshot" },
+  { "id": "bb60da91-be2e-4fa8-853d-285c30b0d95c", "title": "Kokiri Forest", "type": "screenshot" },
+  { "id": "96b0fe0c-9109-4b66-9dfa-6c4d9b4f7624", "title": "Got a Treasure", "type": "screenshot" },
+  { "id": "d07aa84d-c832-439f-9511-3f307c5c05fd", "title": "Important Item Acquired", "type": "screenshot" },
+  { "id": "c7a599af-4c3f-45a1-9f12-7c988a1c153f", "title": "Item Acquired", "type": "screenshot" },
+  { "id": "12aa8ec0-928b-43af-a468-bde82ff9d1cb", "title": "Shop", "type": "screenshot" },
+  { "id": "a1921fca-5bd6-4d29-a4e8-8bb1edc5634b", "title": "Battle", "type": "screenshot" },
+  { "id": "395f71b0-0e2a-4e02-b69a-c8e47eb656bf", "title": "Inside the Deku Tree", "type": "screenshot" },
+  { "id": "48cb154c-9db1-4967-9e5d-292c5fee8ece", "title": "Boss Battle", "type": "screenshot" },
+  { "id": "1de95e25-76fe-4100-92f0-907095cc267a", "title": "Boss Defeated", "type": "screenshot" },
+  { "id": "5b984891-6629-44eb-8134-5ff6d0c99766", "title": "Heart Container Acquired", "type": "screenshot" },
+  { "id": "48bd3403-0630-478e-abae-31a007968153", "title": "The Legend of Hyrule", "type": "screenshot" },
+  { "id": "a4c5b838-aeaa-4ecb-8890-a2e719087b24", "title": "Spiritual Stone Acquired", "type": "screenshot" },
+  { "id": "b2e00c76-8a87-41b5-80e4-6f4c38569397", "title": "Fairy Ocarina Acquired", "type": "screenshot" },
+  { "id": "26ee4ce9-bff4-4342-b422-6d5a03590e01", "title": "Hyrule Field Main Theme", "type": "screenshot" },
+  { "id": "e70d65a4-cb59-41dc-a8de-b019435e3da5", "title": "Kaepora Gaebora's Theme", "type": "screenshot" },
+  { "id": "bc263071-ec87-4c0b-a689-148180f099f8", "title": "Market", "type": "screenshot" },
+  { "id": "132b0bd5-dcdf-4944-95b0-f40f4e5a7ad2", "title": "Shooting Gallery", "type": "screenshot" },
+  { "id": "710df4f1-6fb6-40fd-8d9b-47e2468c7221", "title": "Hyrule Castle Courtyard", "type": "screenshot" },
+  { "id": "e8071f5a-629d-4eab-93d3-812e04d15122", "title": "Zelda Appears", "type": "screenshot" },
+  { "id": "0f20b737-d2db-4a0e-ae86-767638a02110", "title": "Zelda's Lullaby", "type": "screenshot" },
+  { "id": "09fa1736-df6e-4b99-ac85-37728798c8fb", "title": "Zelda's Theme", "type": "screenshot" },
+  { "id": "db74b460-4f66-4008-af64-388b0dc42cb5", "title": "Epona's Song", "type": "screenshot" },
+  { "id": "fe4c77b3-e462-4db3-8a92-04c73482870e", "title": "Lon Lon Ranch", "type": "screenshot" },
+  { "id": "f305b5cd-3457-4d64-9a96-ffbbc142befb", "title": "Minigame", "type": "screenshot" },
+  { "id": "3d81defc-42aa-42e1-a56a-3311f9f03d0a", "title": "Kakariko Village", "type": "screenshot" },
+  { "id": "ba9bf5b3-0f15-4d6a-9616-8f304801a07d", "title": "Sun's Song", "type": "screenshot" },
+  { "id": "4b996c7b-0697-4022-9d74-dec235126af0", "title": "Hyrule Field Theme: Morning", "type": "screenshot" },
+  { "id": "c994346a-2ada-4a79-bb41-268de1f7b2c8", "title": "Goron City", "type": "screenshot" },
+  { "id": "cb24b2e9-4160-4461-97db-ee80e4079873", "title": "Saria's Song", "type": "screenshot" },
+  { "id": "b315cfe2-9c28-4e8d-b6d4-0dff9e85e101", "title": "Lost Woods", "type": "screenshot" },
+  { "id": "c9e5b27d-6d9b-4f0b-9554-509ef507dca3", "title": "Dodongo's Cavern", "type": "screenshot" },
+  { "id": "b4e2d468-4ee7-4271-978e-1f872925b28e", "title": "Middle Boss Battle", "type": "screenshot" },
+  { "id": "2e21e285-4f07-4e7d-ad8f-8732320b8849", "title": "Dinosaur Boss Battle", "type": "screenshot" },
+  { "id": "5baef8a7-c8b8-407c-9300-22eaa33e2c5a", "title": "Zora's Domain", "type": "screenshot" },
+  { "id": "1414a8c5-dd69-4bea-87bd-35fade67fe8f", "title": "Great Fairy's Fountain", "type": "screenshot" },
+  { "id": "9a2eaad6-7076-4239-bcc4-a2d051ba432c", "title": "Potion Shop", "type": "screenshot" },
+  { "id": "caebe618-a31e-44fc-aa3b-ed82a7a30615", "title": "Inside Jabu-Jabu's Belly", "type": "screenshot" },
+  { "id": "a4d24ff3-ca7a-41ba-88f6-3b2bb544747c", "title": "Song of Time", "type": "screenshot" },
+  { "id": "6d1c0182-48f8-4090-ba2c-2fce319ed5d1", "title": "Temple of Time", "type": "screenshot" },
+  { "id": "db26fb8c-2971-4833-a0a0-f9d95d17fd09", "title": "The Door of Time", "type": "screenshot" },
+  { "id": "8fc734a2-1d88-43a2-80da-60b111ee0d41", "title": "Master Sword", "type": "screenshot" },
+  { "id": "a36e7e4e-297e-41b1-8d00-54b51be24ab6", "title": "Ganondorf's Theme", "type": "screenshot" },
+  { "id": "c111ecef-ccb3-4082-87fe-a275f62f4a11", "title": "Chamber of the Sages", "type": "screenshot" },
+  { "id": "57d7b89c-c496-4beb-a747-722c5c1d026e", "title": "Medallion Acquired", "type": "screenshot" },
+  { "id": "78397bf3-7190-4015-88fe-20e33277aae7", "title": "Sheik's Theme", "type": "screenshot" },
+  { "id": "df65a59b-3ec0-480d-b90a-9d377f138216", "title": "Horse Race", "type": "screenshot" },
+  { "id": "9208d2a4-b1e4-4503-a29f-e3824d01ebf9", "title": "Horse Race: Finish Line", "type": "screenshot" },
+  { "id": "b333ae9a-9d67-4872-91d0-8858293a1411", "title": "Ingo's Theme", "type": "screenshot" },
+  { "id": "00053af8-f4f9-4348-8739-a01d50773956", "title": "Escape from Lon Lon Ranch", "type": "screenshot" },
+  { "id": "ebbd3d03-ec9a-4a24-b58b-7733a81ff474", "title": "Kakariko Village Orchestral Ver.", "type": "screenshot" },
+  { "id": "d1e47a4b-8537-4fe6-ab1c-7639396ccd70", "title": "Song of Storms", "type": "screenshot" },
+  { "id": "85803036-a5c9-4b93-9e3c-e576f4284f8d", "title": "Windmill Hut", "type": "screenshot" },
+  { "id": "350972c3-24dc-446b-9c24-930d34a4819c", "title": "Minuet of Forest", "type": "screenshot" },
+  { "id": "be8afc09-c882-4a0b-a63e-76c9affcb94f", "title": "Forest Temple", "type": "screenshot" },
+  { "id": "6d429f9e-8f81-4937-af15-9e49e587e8cf", "title": "Bolero of Fire", "type": "screenshot" },
+  { "id": "b9fbe237-d9ae-4579-9b3c-47b074d30c87", "title": "Fire Temple", "type": "screenshot" },
+  { "id": "57c0606e-6f8c-441f-8740-8057dc1d256f", "title": "Ice Cavern", "type": "screenshot" },
+  { "id": "e4abf6d4-5297-4a25-bab1-405c998c94f5", "title": "Serenade of Water", "type": "screenshot" },
+  { "id": "bc68da3a-5365-431a-a40b-2aa39dda995f", "title": "Water Temple", "type": "screenshot" },
+  { "id": "d785bfb7-9519-434b-8341-1107a8bc030b", "title": "Nocturne of Shadow", "type": "screenshot" },
+  { "id": "cceff340-81f6-4888-ab3f-8995c1bb666a", "title": "Prelude of Light", "type": "screenshot" },
+  { "id": "579b249a-0e68-4ae6-acef-6e47ff677431", "title": "Shadow Temple", "type": "screenshot" },
+  { "id": "be8f89b0-aff3-4718-8b58-43c12c85c7a8", "title": "Gerudo Valley", "type": "screenshot" },
+  { "id": "d77801cf-7a67-4379-81b9-fb673ad6cb69", "title": "Spirit Temple", "type": "screenshot" },
+  { "id": "523c3670-9516-4ee9-8b56-02df91259298", "title": "Requiem of Spirit", "type": "screenshot" },
+  { "id": "213d9e5c-e09a-486f-82cb-c9b74c713e94", "title": "Kotake & Koume's Theme", "type": "screenshot" },
+  { "id": "df3a711e-199a-43bb-bf2c-e8f8e7e186a1", "title": "Reuniting with Zelda", "type": "screenshot" },
+  { "id": "71e5709f-da4c-45b3-98e2-b77bd9f914e6", "title": "Game Over", "type": "screenshot" },
+  { "id": "d2e3a4c8-0031-432f-8a35-79fd22d8a946", "title": "A Bridge to Ganon's Castle", "type": "screenshot" },
+  { "id": "372c20ae-b5be-4b09-9e4a-70fa0a97f695", "title": "Beneath Ganon's Castle", "type": "screenshot" },
+  { "id": "971a43b3-9c10-4c62-b8b2-ce3aa1357792", "title": "Ganon's Tower", "type": "screenshot" },
+  { "id": "98f4eb92-de0a-4e59-9531-256a97191bf1", "title": "Ganondorf Battle", "type": "screenshot" },
+  { "id": "3c65a103-353d-44a6-9076-eaeeee131ce6", "title": "Escape from Ganon's Castle", "type": "screenshot" },
+  { "id": "cedfbf3c-7f60-4f3d-bb0e-f7cdbadee0ee", "title": "Last Battle", "type": "screenshot" },
+  { "id": "15180e77-db91-4f70-94a9-8f6c59f0c9c9", "title": "Seal of the Six Sages", "type": "screenshot" },
+  { "id": "55bec1d5-084b-419e-9c12-f166644b8f06", "title": "Ocarina of Time", "type": "screenshot" },
+  { "id": "2e795f78-f0e5-40b2-9b37-454c8b192076", "title": "End Credits", "type": "screenshot" }
+],
               "playlistIcons": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Playlist Icon" }
               ]
             }
           ]
-        },
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+      ]
+    },
+
+    {
+      "id": "gba",
+      "name": "Game Boy Advance",
+      "era": "SNES · 2001",
+      "games": [
         {
-          "id": "mk64",
-          "title": "Mario Kart 64",
-          "year": 1996,
+          "id": "10",
+          "title": "Fire Emblem: The Blazing Blade",
+          "year": 2003,
           "aliasOf": null,
           "regions": [
             {
-              "region": "US/EU",
-              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
-              "screenshots": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Key Visual", "type": "artwork" },
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Rainbow Road", "type": "screenshot" }
-              ],
+              "region": "Global",
+              "thumb": "c89d4361-b7f9-492c-820e-039ff110e628",
               "announcements": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Announcement Banner" }
+                { "id": "c89d4361-b7f9-492c-820e-039ff110e628", "title": "Banner" }
               ],
+"screenshots": [
+  { "id": "f887bfd6-bf3e-4b63-bbbe-9bae02d2c95a", "title": "Opening: History Unveiled", "type": "screenshot" },
+  { "id": "901f41eb-dbd8-4d24-ba03-97a831493c13", "title": "Fire Emblem Theme", "type": "screenshot" },
+  { "id": "c9182563-aa8e-443b-bc13-f7c0e29b0d3d", "title": "Fire Emblem Theme (JP)", "type": "screenshot" },
+  { "id": "0236155d-5179-44fc-b563-1e429073472e", "title": "A Hint of Things to Come", "type": "screenshot" },
+  { "id": "43ccc0c6-8d36-4c53-b64a-c4e6c4f2c553", "title": "Road of Trials", "type": "screenshot" },
+  { "id": "6dc39bab-7594-4460-b355-0643c1bf982e", "title": "Destiny Enlaced by Fear", "type": "screenshot" },
+  { "id": "f538c1f5-4ad2-49cc-9395-e92b16375dff", "title": "Winds across the Plains", "type": "screenshot" },
+  { "id": "c58c16db-9e90-43a1-85c9-fe6995912209", "title": "Precious Things", "type": "screenshot" },
+  { "id": "6cc3bb76-fa1f-44ac-b4a3-983f3f17eef1", "title": "Companions", "type": "screenshot" },
+  { "id": "eca27032-5a46-4513-931d-bd103ada2f12", "title": "Friendship and Adventure", "type": "screenshot" },
+  { "id": "f4372068-4415-43d4-93bc-92f2248b5055", "title": "Distant Travels", "type": "screenshot" },
+  { "id": "4da02f78-3c98-44ae-99dd-87e720916022", "title": "Inescapable Fate", "type": "screenshot" },
+  { "id": "c511b7f8-79a2-4818-b304-550f22ef7e84", "title": "Dragon's Gate II", "type": "screenshot" },
+  { "id": "ffe3ab07-3af6-40b5-b2c0-62f7ffd4754d", "title": "Winning Road", "type": "screenshot" },
+  { "id": "791ec446-1b86-420f-9913-ba66775f7788", "title": "Binding Ties", "type": "screenshot" },
+  { "id": "a95703d9-8ff1-428e-b5cd-675923046c80", "title": "Scars of the Scouring", "type": "screenshot" },
+  { "id": "ca76ae5f-6eed-4e1d-9950-5d2463b6d788", "title": "Raise Your Spirits", "type": "screenshot" },
+  { "id": "c08890a5-f97f-466c-a07c-3d3e60b2d392", "title": "Shadow Approaches", "type": "screenshot" },
+  { "id": "54f4e7ed-a29f-47ac-86d9-986e2498fdc9", "title": "Enemies Appear", "type": "screenshot" },
+  { "id": "928e225f-377f-44d7-8e03-7e9307bee723", "title": "The Messenger", "type": "screenshot" },
+  { "id": "51df1581-bff0-431b-b2b5-d2cb545ca663", "title": "Darkness Comes", "type": "screenshot" },
+  { "id": "d4a5f6aa-57f0-4211-9d0d-28b0cb60b8ae", "title": "Dragon's Gate I", "type": "screenshot" },
+  { "id": "19240796-8cdb-4ea7-a381-21d22cc532dd", "title": "Nabata's Wandering Messenger", "type": "screenshot" },
+  { "id": "68a8325f-e3ab-47e9-bbf5-cbc5c09086fa", "title": "Legendary Inheritance", "type": "screenshot" },
+  { "id": "59af6b36-0acb-4ac3-99c9-33a504f4c784", "title": "Raid!", "type": "screenshot" },
+  { "id": "d8185615-ad53-49c2-a2c5-5b31a817c616", "title": "Messenger from the Darkness", "type": "screenshot" },
+  { "id": "f9efa7f9-fbbe-4c79-98db-cea75652c241", "title": "Strike", "type": "screenshot" },
+  { "id": "d8789f9b-3375-45b2-afc8-c43bba050b24", "title": "Safeguard", "type": "screenshot" },
+  { "id": "e0a499de-b4e6-4d21-83a0-29ff74347365", "title": "Victory Now!", "type": "screenshot" },
+  { "id": "bb474554-70a3-40f5-a3e7-da8ff4b3eecb", "title": "Rise to the Challenge", "type": "screenshot" },
+  { "id": "93e432b7-d544-48cd-a204-fa97592a8c2c", "title": "Softly with Grace", "type": "screenshot" },
+  { "id": "09741f0f-890a-4f5e-bd5c-98f68c86d8a6", "title": "Everything into the Dark", "type": "screenshot" },
+  { "id": "8be47757-c90e-41a1-be44-f10d93d71005", "title": "Campaign of Fire", "type": "screenshot" },
+  { "id": "8b039969-0d7f-44b2-ac4c-d51823834881", "title": "Blessing of the Eight Generals I", "type": "screenshot" },
+  { "id": "32b3ab84-ab2f-40f4-9e39-47ce51fec073", "title": "Healing", "type": "screenshot" },
+  { "id": "0ffda6d5-2292-498c-a5de-82b6458ef1bf", "title": "Curing", "type": "screenshot" },
+  { "id": "5caada7c-16b5-47fa-a886-80855054a74b", "title": "Receive the Blessings of Water", "type": "screenshot" },
+  { "id": "528ab55c-9568-4b4b-9ccb-889dbd64a2d4", "title": "Ride the Wind", "type": "screenshot" },
+  { "id": "7aeb75f8-2592-458f-b635-85a0760a3821", "title": "To the Heights", "type": "screenshot" },
+  { "id": "41ea62ae-feb8-48ef-b11d-9d5d2eeabd6f", "title": "An Unexpected Caller", "type": "screenshot" },
+  { "id": "9457a1e5-45a0-4a9a-ba3c-c42d1a151e15", "title": "When the Rush Comes", "type": "screenshot" },
+  { "id": "102a9d2a-edcb-46db-b676-a1b9a64ed67d", "title": "Land of Swirling Sands", "type": "screenshot" },
+  { "id": "1dc08745-7df7-4381-a21b-445c46461268", "title": "Ships and Homes", "type": "screenshot" },
+  { "id": "fdfb8d14-e29a-4757-ab67-ca5daf2b3e22", "title": "Silent Ground", "type": "screenshot" },
+  { "id": "b3d93f7e-b4a0-4462-a447-a1cf04dc004f", "title": "The Inn", "type": "screenshot" },
+  { "id": "c2beca61-048b-4787-b0fb-ca0bbb10571b", "title": "Going My Way", "type": "screenshot" },
+  { "id": "b927775e-265b-449f-a10f-6477f9d9060c", "title": "Together, We Ride!", "type": "screenshot" },
+  { "id": "7378712a-6701-4810-a57c-e04f8a7bf767", "title": "A Knight's Oath", "type": "screenshot" },
+  { "id": "24b6cee2-47d3-49c4-9706-19e2065b6401", "title": "Happiness Abounds", "type": "screenshot" },
+  { "id": "cbbafb1c-075d-4a6b-b4f7-485e11e6f079", "title": "Merlinus", "type": "screenshot" },
+  { "id": "4bc21b1d-82b0-4b2f-96eb-9d3627230592", "title": "Final Farewell", "type": "screenshot" },
+  { "id": "b8c9ca91-4362-489f-8843-efac3a4ca3f8", "title": "Requiem", "type": "screenshot" },
+  { "id": "b2fcd29c-c2f2-4976-8845-fbf622fc20e8", "title": "Recollection of a Petal", "type": "screenshot" },
+  { "id": "17e5bcc2-5bd4-45c8-b8bc-d55cada08f56", "title": "The Cogs of Fate", "type": "screenshot" },
+  { "id": "6c3a7291-844d-4417-bbb4-6616a69a3a0d", "title": "The Eight Generals", "type": "screenshot" },
+  { "id": "d41f4fbb-840f-4350-b0ee-67afbfdb314f", "title": "The Archsage Athos", "type": "screenshot" },
+  { "id": "d7e28a99-f40e-4ba9-b859-0533ba857234", "title": "Distant Utopia", "type": "screenshot" },
+  { "id": "ad74259b-0a04-4b7a-bbb2-9be664e545ef", "title": "What Comes from Darkness", "type": "screenshot" },
+  { "id": "a75e234a-55b7-4eed-8aae-868b1d13fd42", "title": "Black Fang", "type": "screenshot" },
+  { "id": "62445ac2-caa3-4836-a9ba-089d0264f0dc", "title": "Calamity Bringer: Nergal's Theme", "type": "screenshot" },
+  { "id": "9318d986-d320-4216-9439-06bea62211f3", "title": "Nergal's Wrath", "type": "screenshot" },
+  { "id": "24a68402-48a9-4ed1-82d1-604089f9817f", "title": "Stratagem", "type": "screenshot" },
+  { "id": "300c369c-4a94-4b44-b9ef-7df065bed771", "title": "The Kingdom of Bern", "type": "screenshot" },
+  { "id": "4efa409a-9946-48cb-bade-00e885004e13", "title": "Bern - A Mother's Wish", "type": "screenshot" },
+  { "id": "c906abb1-f2da-4fd8-aa9a-54928228ab63", "title": "Shocking Truth I", "type": "screenshot" },
+  { "id": "624c0aab-f22a-494b-bb7a-c491219b3ee9", "title": "Shocking Truth II", "type": "screenshot" },
+  { "id": "c06ccb1d-5763-4e6b-8518-0132b7984a2a", "title": "Triumph", "type": "screenshot" },
+  { "id": "319dbb81-df3d-43a8-860e-04a3b483cb42", "title": "Into the Shadow of Triumph", "type": "screenshot" },
+  { "id": "16eeb0ae-6e34-4441-832e-cb15a642f41d", "title": "Main Theme Arrangement", "type": "screenshot" },
+  { "id": "b4c27856-9e7c-4229-8e94-d248df968d86", "title": "Blessing of the Eight Generals II", "type": "screenshot" },
+  { "id": "845689eb-8635-473d-a07a-a3a8c74e10cf", "title": "Girl of the Plains: Lyn's Theme", "type": "screenshot" },
+  { "id": "157d5ad3-3d0d-43a8-9c5f-e6c3b3700a7c", "title": "Lyn's Desire", "type": "screenshot" },
+  { "id": "38e438f5-e6d0-493f-9ab1-6ddeb5329532", "title": "Light to Tomorrow", "type": "screenshot" },
+  { "id": "d5c92e9c-6f02-4d55-a738-13e0dc17a677", "title": "One Heart: Eliwood's Theme", "type": "screenshot" },
+  { "id": "ba99af6f-2ae0-459c-96fb-fcb1090b0b3d", "title": "Eyes of Sorrow", "type": "screenshot" },
+  { "id": "dc13ee0e-1079-438d-9ae6-0f9a9548cd17", "title": "Unshakable Faith", "type": "screenshot" },
+  { "id": "59518ca9-ffbc-4eb9-92a2-5252ec588e06", "title": "Loyalty: Hector's Theme", "type": "screenshot" },
+  { "id": "424f0988-4ee2-4486-86c9-b03aa5cf55fb", "title": "The Grieving Heart", "type": "screenshot" },
+  { "id": "d10e7ec6-7dcd-4544-ab4b-b96a6899ab8f", "title": "Reminiscence", "type": "screenshot" },
+  { "id": "31110727-2656-487c-b5fc-324b1c77a131", "title": "Shattered Life", "type": "screenshot" },
+  { "id": "0662f34d-c7ab-4781-905a-1ff9839f0adf", "title": "Anguish", "type": "screenshot" },
+  { "id": "8ede0aec-1f6e-4a56-a57b-8250cc7bcecd", "title": "Respite in Battle", "type": "screenshot" },
+  { "id": "a20ebbe2-5352-48ee-8512-eb848cd1b638", "title": "Prepare to Charge", "type": "screenshot" },
+  { "id": "efafd8d7-d118-48c7-be27-51cefb751e3f", "title": "Armory", "type": "screenshot" },
+  { "id": "14159e3c-bda8-475b-ab50-cd962643b1e0", "title": "Shop", "type": "screenshot" },
+  { "id": "e42faf5c-55ac-4e43-8408-3010bd424b49", "title": "Fortune-Telling", "type": "screenshot" },
+  { "id": "04c9f006-4a78-4e95-82db-df506d917380", "title": "Arena Entrance", "type": "screenshot" },
+  { "id": "90db007b-70e8-4f30-b5f9-750abbeeb628", "title": "Arena Battle", "type": "screenshot" },
+  { "id": "e447afb8-0911-473f-8e6c-68567522c61e", "title": "Arena Victory", "type": "screenshot" },
+  { "id": "d97027dd-e044-4c4d-b357-fc34613ee927", "title": "Arena Tactics", "type": "screenshot" },
+  { "id": "173307dc-9216-4915-834f-37adc31c8d67", "title": "Within Sadness", "type": "screenshot" },
+  { "id": "887e88da-c386-4792-b5ce-61c26e162eef", "title": "Game Over", "type": "screenshot" },
+  { "id": "03b6511d-725e-49fe-b2cc-146aac5b5dc9", "title": "Legend of Athos", "type": "screenshot" },
+  { "id": "fec1039d-e708-4bf3-a37a-da46e9526d53", "title": "Results", "type": "screenshot" },
+  { "id": "5d09adb1-f6ad-4e04-8423-16ce899e81ef", "title": "Treasured Hope", "type": "screenshot" },
+  { "id": "25cf2081-6b3d-4d30-945e-6f938059e73e", "title": "Beneath a New Light", "type": "screenshot" },
+  { "id": "51f11073-5b10-4522-8c38-3c4f41bfcbbb", "title": "The Path to Greatness", "type": "screenshot" },
+  { "id": "1bc47a61-71df-48eb-a5b8-95b0c608068b", "title": "In the Name of Bern", "type": "screenshot" },
+  { "id": "dbdd27ef-acc7-477a-b935-83d3ecf17eba", "title": "Avoided Fate", "type": "screenshot" },
+  { "id": "539efea4-7986-47f1-aa86-77d89d0cbe5d", "title": "Legend of the Dragon God (From Fire Emblem: Mystery of the Emblem)", "type": "screenshot" },
+  { "id": "5ba15dd2-4bcc-4344-87a3-70c7fd3ea81c", "title": "Legend of the Dragon God (From Fire Emblem: Mystery of the Emblem) (JP)", "type": "screenshot" },
+  { "id": "539efea4-7986-47f1-aa86-77d89d0cbe5d", "title": "Royal Palace of Silesse (From Fire Emblem: Genealogy of the Holy War)", "type": "screenshot" },
+  { "id": "5ba15dd2-4bcc-4344-87a3-70c7fd3ea81c", "title": "Royal Palace of Silesse (From Fire Emblem: Genealogy of the Holy War) (JP)", "type": "screenshot" }
+],
               "playlistIcons": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Playlist Icon" }
               ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "gc",
+      "name": "GameCube",
+      "era": "GC · 2001",
+      "games": [
+        {
+          "id": "11",
+          "title": "Metroid Prime",
+          "year": 2002,
+          "aliasOf": null,
+          "regions": [
             {
-              "region": "JP",
-              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
-              "screenshots": [
-                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "JP Box Art", "type": "artwork" }
+              "region": "Global",
+              "thumb": "f1902b1c-fa08-4ef4-9e40-97e49c5918ca",
+              "announcements": [
+                { "id": "f1902b1c-fa08-4ef4-9e40-97e49c5918ca", "title": "Banner" }
               ],
-              "announcements": [],
-              "playlistIcons": []
+"screenshots": [
+  { "id": "be2eb17e-6c79-47b9-94c2-b53b1c15b795", "title": "Title Theme", "type": "screenshot" },
+  { "id": "47514799-857d-4aad-8b66-e604e243cbca", "title": "File Select", "type": "screenshot" },
+  { "id": "11be5a3a-0c4a-4281-be10-dca6f8d244ef", "title": "Prologue", "type": "screenshot" },
+  { "id": "d9e1239c-31af-4b02-86cc-627d63683b47", "title": "Pirate Frigate", "type": "screenshot" },
+  { "id": "1e317bba-2265-40c7-b68a-022c8fa45c10", "title": "Parasite Queen Battle", "type": "screenshot" },
+  { "id": "b0db1f27-2fab-4f24-8484-925800e198ad", "title": "Pirate Frigate Escape", "type": "screenshot" },
+  { "id": "40ae2d9b-aa3a-4fdc-92a8-14f1bce05852", "title": "Samus Appears", "type": "screenshot" },
+  { "id": "50d94592-dd97-4bbc-b2f7-ffeff45c65d9", "title": "Tallon Overworld", "type": "screenshot" },
+  { "id": "3b3e2fa7-2a10-428f-b330-5fa4ae521974", "title": "Timeworn Chozo Remnants", "type": "screenshot" },
+  { "id": "78381b72-19c1-4d75-8224-29e2609766b9", "title": "Hive Mecha Battle", "type": "screenshot" },
+  { "id": "fa4319df-b4d1-4322-94dc-021d9a9c9259", "title": "Item Obtained", "type": "screenshot" },
+  { "id": "2d8aa9ab-c614-4d18-a0c3-1436a54c7e2d", "title": "Plated Beetle Battle", "type": "screenshot" },
+  { "id": "72145939-4618-47cc-9017-a17b600bf170", "title": "Chozo Ruins", "type": "screenshot" },
+  { "id": "dee2ff79-9845-4f93-a69f-9bbfaf0636cf", "title": "Flaahgra Battle", "type": "screenshot" },
+  { "id": "0e183c3f-7a52-4f70-8077-726a2055f425", "title": "Magmoor Caverns", "type": "screenshot" },
+  { "id": "cb73faf3-055f-4966-bedb-a109896ad412", "title": "Phendrana Drifts", "type": "screenshot" },
+  { "id": "8433390a-61ff-46cc-ab56-5d026781172b", "title": "Chapel of the Elders", "type": "screenshot" },
+  { "id": "2e839276-7236-4e57-8a26-87d87a866735", "title": "Space Pirates (Specimen Storage)", "type": "screenshot" },
+  { "id": "047ed6cf-f3ea-44c2-8f57-45f4a898d1d7", "title": "Space Pirates Battle", "type": "screenshot" },
+  { "id": "e94fe337-3d27-4b87-9e98-e55bb3f02668", "title": "Thardus Battle", "type": "screenshot" },
+  { "id": "605cb53f-67ca-4cf5-afcc-4a0280ba7cdd", "title": "Tallon Overworld Revisited", "type": "screenshot" },
+  { "id": "7d143107-ec4b-4985-ae0f-75be6ddfc730", "title": "Hall of the Chozo Elders", "type": "screenshot" },
+  { "id": "4296b4e3-068d-436f-b89d-1140928667f6", "title": "Chozo Ghosts Battle", "type": "screenshot" },
+  { "id": "c7a97d2d-3cac-4f09-97c5-02ac7ba98633", "title": "Phendrana Battle", "type": "screenshot" },
+  { "id": "40f4b489-6639-47ed-bbb1-a8f531e76aa8", "title": "Crashed Ship", "type": "screenshot" },
+  { "id": "4294ac57-4fa6-4d86-b077-8d7a6ea394de", "title": "Phazon Mines", "type": "screenshot" },
+  { "id": "c38634c6-da0e-43e3-9350-04b257cf836b", "title": "Omega Pirate Battle", "type": "screenshot" },
+  { "id": "9ed8643b-e743-45c7-b7d0-b55f68c05b8e", "title": "Chozo Shrine", "type": "screenshot" },
+  { "id": "2bebd40b-6ddc-42ab-9880-c3a43752bfef", "title": "Artifact Obtained", "type": "screenshot" },
+  { "id": "7ac65279-2fc5-4e85-bde3-8b12f6778e0c", "title": "Meta Ridley Battle", "type": "screenshot" },
+  { "id": "28d303be-7af2-4ae5-9d52-9faac80ce9cc", "title": "Chozo Shrine Unsealed", "type": "screenshot" },
+  { "id": "284ab1ec-6e54-4bb4-a18d-5e8b048027b0", "title": "Metroid Prime Battle", "type": "screenshot" },
+  { "id": "6b2635f0-189f-4311-a186-cc0f61418476", "title": "Metroid Prime (Core) Battle", "type": "screenshot" },
+  { "id": "05acb1ae-6b3b-4996-b87b-2fd6cf42879a", "title": "Shrine Collapse - Epilogue", "type": "screenshot" },
+  { "id": "0d374cde-68cc-46e8-90cb-1be103508e7d", "title": "Credits", "type": "screenshot" },
+  { "id": "4735b33c-e82e-4d45-b9c4-4aa8b164d8f9", "title": "Samus's Record", "type": "screenshot" }
+],
+              "playlistIcons": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    
+    
+    
+    {
+      "id": "ds",
+      "name": "Nintendo DS",
+      "era": "DS · 2004",
+      "games": [
+        {
+          "id": "12",
+          "title": "nintendogs",
+          "year": 2005,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "Global",
+              "thumb": "2c0f080f-e98f-40dc-ae10-70e2ef80cb68",
+              "announcements": [
+                { "id": "2c0f080f-e98f-40dc-ae10-70e2ef80cb68", "title": "Banner" }
+              ],
+"screenshots": [
+  { "id": "e9ac12e7-6b92-48b5-aa0b-139d08250851", "title": "nintendogs", "type": "screenshot" },
+  { "id": "ab8f089f-991c-4b50-88cf-5cdec85fbfcc", "title": "nintendogs (JP)", "type": "screenshot" },
+  { "id": "fcf8c786-d31c-4d63-80d9-11c97ac567fe", "title": "Shop & Kennel", "type": "screenshot" },
+  { "id": "104f77cf-7345-4127-9602-6fc73b03b41f", "title": "Learned a Trick!", "type": "screenshot" },
+  { "id": "cb3a84fa-6fd6-421f-bb5e-7968a7f3445d", "title": "Reading", "type": "screenshot" },
+  { "id": "b18bb70a-bed7-49e8-8c7a-41e4d3829112", "title": "Walking", "type": "screenshot" },
+  { "id": "9e77be5e-6dee-426a-9476-1614e95d0b3c", "title": "Got Supplies", "type": "screenshot" },
+  { "id": "34c74a61-a2c1-4d0c-bb4d-b96cd2dc2471", "title": "Walking: Other Dog Encounter (Curious)", "type": "screenshot" },
+  { "id": "e46f64a7-01a0-4e92-a388-2947320799c5", "title": "Walking: Other Dog Encounter (Great Mood)", "type": "screenshot" },
+  { "id": "16b6fb53-da94-4853-8fe4-40ad91936899", "title": "Walking: Other Dog Encounter (Friendly)", "type": "screenshot" },
+  { "id": "5e122c3c-497f-4f3f-b1d3-f936bf99c6d6", "title": "Walking: Other Dog Encounter (Slight Dislike)", "type": "screenshot" },
+  { "id": "58a4717f-328a-4da5-8614-99e472b23dd1", "title": "Walking: Other Dog Encounter (Unfriendly)", "type": "screenshot" },
+  { "id": "c03729cd-cd6a-4254-838d-28e74ab1839c", "title": "Agility Trials", "type": "screenshot" },
+  { "id": "9c8a9087-5e9b-49dc-b83e-38433e24c912", "title": "Back Home", "type": "screenshot" },
+  { "id": "87e15458-5765-481a-81ae-830390b981b0", "title": "Bathing", "type": "screenshot" },
+  { "id": "43f9d6fb-6a77-492b-aeb2-4f0ed1088842", "title": "Dog Show: Judges' Commentary", "type": "screenshot" },
+  { "id": "1b84c9b3-fd8c-4ebe-96ea-276e5411a0a2", "title": "Dog Show: Beginner Fanfare", "type": "screenshot" },
+  { "id": "7e9a9ba4-0a89-49d4-84f7-45c77f8e56bc", "title": "Dog Show: Beginner", "type": "screenshot" },
+  { "id": "1582ce45-6392-4454-84a0-511724a2b9da", "title": "Dog Show: Expert Fanfare", "type": "screenshot" },
+  { "id": "f5de4cc5-ffac-496e-b31b-febd69d04161", "title": "Dog Show: Expert", "type": "screenshot" },
+  { "id": "0bdc0cc4-c562-45f5-bac5-72a99cb3aee5", "title": "Dog Show: Championship Fanfare", "type": "screenshot" },
+  { "id": "eae8907a-f151-48cf-87cc-169748cfdfb9", "title": "Dog Show: Championship", "type": "screenshot" },
+  { "id": "8268c00f-4a67-4704-b536-fac107ccf6f0", "title": "Dog Show: Command Mastery!", "type": "screenshot" },
+  { "id": "b9cda83e-19f2-4bd0-9e2f-441b0b46707f", "title": "Dog Show: Held Trick!", "type": "screenshot" },
+  { "id": "25dbced7-86a5-47bc-90ae-c3553997e551", "title": "Dog Show: Time's Up!", "type": "screenshot" },
+  { "id": "718ff745-b36e-4539-913b-85d5961435e9", "title": "Dog Show: Closing Fanfare", "type": "screenshot" },
+  { "id": "0cabdff9-2400-42b6-a8b4-aea7a43eba9d", "title": "Dog Show: Winner", "type": "screenshot" },
+  { "id": "5533a555-0348-458c-8f50-251ddd56b03d", "title": "Dog Show: Did Not Place", "type": "screenshot" },
+  { "id": "a5b9908a-1da5-40fc-baa5-1f5f9e642999", "title": "Toy: Mario Kart", "type": "screenshot" },
+  { "id": "e43b4422-0aed-4b2d-8ec6-c9af017beda6", "title": "Toy: Bowser Kart", "type": "screenshot" },
+  { "id": "b86f742d-b2fe-49aa-883a-b3feb1dae415", "title": "Toy: Peach Kart", "type": "screenshot" },
+  { "id": "8cd12356-a153-47b7-810c-c24ef4345c20", "title": "Toy: Combat Copter", "type": "screenshot" },
+  { "id": "a4a5e034-c8b6-4d0f-8628-2df6321c8d2a", "title": "Music Box: nintendogs", "type": "screenshot" },
+  { "id": "aadc7f14-7bb4-4b7c-832e-f3fdd499b0e4", "title": "Music Box: Mario's Theme", "type": "screenshot" },
+  { "id": "af5aaa0d-78cd-477e-bbc4-7e328f747bb3", "title": "Music Box: Puppy Waltz", "type": "screenshot" },
+  { "id": "9b97ef3a-f046-4e33-8cdf-ae7f293f1df1", "title": "Record: Street Marker", "type": "screenshot" },
+  { "id": "838c7895-546b-4174-a764-da22c3563187", "title": "Record: Growler", "type": "screenshot" },
+  { "id": "513ecc0b-e075-425f-9f39-18928ba00c39", "title": "Record: Smilin' Dog", "type": "screenshot" },
+  { "id": "9c792fab-8315-4998-a883-2f448a5a79d8", "title": "Record: Friendly Whiff", "type": "screenshot" },
+  { "id": "96c2467f-090b-4cb8-8034-8ce8c3a6010e", "title": "Record: Chow", "type": "screenshot" },
+  { "id": "2621cf39-d49b-47bf-8ff1-412bad0f2907", "title": "Record: Surprise", "type": "screenshot" },
+  { "id": "ef238d32-397c-457e-8103-91a1763aed59", "title": "Record: Naptime", "type": "screenshot" },
+  { "id": "cb18a3fb-d69c-4ea5-8543-6af22f42a748", "title": "Record: Colonel Bogey", "type": "screenshot" },
+  { "id": "34ef2a3e-fc71-42a4-aef8-819029d8aa6e", "title": "Record: Toreador", "type": "screenshot" },
+  { "id": "120d3d97-6f92-479b-97f5-f87b68a7a273", "title": "Record: Flower Waltz", "type": "screenshot" },
+  { "id": "c07ab21d-174a-45f1-a48d-f36fd36cc477", "title": "Record: nintendogs", "type": "screenshot" },
+  { "id": "05088ff8-c235-45f9-a846-f8572e1ed1a8", "title": "Record: Waves", "type": "screenshot" },
+  { "id": "bd52040d-6476-47d8-94c4-1cfab119d8d9", "title": "Record: Modest Decor", "type": "screenshot" },
+  { "id": "64dfbeb9-1bbd-443c-9d5b-9a18791e9353", "title": "Record: Shedded Fur", "type": "screenshot" },
+  { "id": "7b4282e5-a7c8-4398-b0ee-598fce173cb5", "title": "Record: Giant Socks", "type": "screenshot" },
+  { "id": "ca1e2166-ceae-40c6-852d-d201cec20dab", "title": "Record: nintendogs (Demo Version)", "type": "screenshot" }
+],
+              "playlistIcons": [
+              ]
             }
           ]
         }
       ]
     }
+
+
+
+
+
+
+
+
+
 
   ],
   "playlists": [
