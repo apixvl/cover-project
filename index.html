@@ -1,53 +1,323 @@
 <!DOCTYPE html>
-    <!--make sure that you look at cover count and then count down 1, that is the id
-    PAY ATTENTION! also make sure to search for a cover in the search bar to make sure it's been done or not-->
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Cover Archive</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NM_ARCHIVE // V2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --panel: #111;
+            --accent: #ff3c00;
+            --text: #f0f0f0;
+            --text-dim: #777;
+            --font-main: 'Space Grotesk', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --border: 1px solid #222;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            background: var(--bg); color: var(--text); 
+            font-family: var(--font-main); overflow-x: hidden;
+        }
+
+        /* --- NAVIGATION & SEARCH --- */
+        nav {
+            position: fixed; top: 0; width: 100%; z-index: 1000;
+            background: rgba(10,10,10,0.9); backdrop-filter: blur(12px);
+            border-bottom: var(--border); padding: 1rem 2rem;
+            display: grid; grid-template-columns: 200px 1fr auto; align-items: center; gap: 2rem;
+        }
+        .brand { font-weight: 700; cursor: pointer; font-size: 1.2rem; }
+        .brand span { color: var(--accent); }
+
+        .search-container { position: relative; }
+        #search-bar {
+            width: 100%; background: #1a1a1a; border: var(--border);
+            padding: 0.6rem 1rem; color: #fff; font-family: var(--font-mono);
+            font-size: 0.8rem; border-radius: 4px; outline: none;
+        }
+        #search-bar:focus { border-color: var(--accent); }
+
+        .nav-actions { display: flex; gap: 1.5rem; font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+        .nav-actions div { cursor: pointer; }
+        .nav-actions div.active { color: var(--accent); text-decoration: underline; }
+
+        /* --- CONSOLE FILTER BAR --- */
+        .filter-bar {
+            margin-top: 80px; padding: 1rem 2rem; border-bottom: var(--border);
+            display: flex; gap: 10px; overflow-x: auto; white-space: nowrap;
+        }
+        .filter-chip {
+            padding: 6px 15px; border: var(--border); font-family: var(--font-mono);
+            font-size: 0.7rem; cursor: pointer; transition: 0.2s; border-radius: 20px;
+        }
+        .filter-chip:hover, .filter-chip.active { background: var(--accent); border-color: var(--accent); color: #000; }
+
+        /* --- MAIN LAYOUT --- */
+        main { padding: 2rem; max-width: 1600px; margin: 0 auto; min-height: 100vh; }
+        .grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem; margin-top: 1rem;
+        }
+
+        .card {
+            background: var(--panel); border: var(--border); cursor: pointer;
+            transition: 0.3s; position: relative;
+        }
+        .card:hover { border-color: var(--accent); transform: scale(1.02); }
+        .card img { width: 100%; aspect-ratio: 16/10; object-fit: cover; border-bottom: var(--border); }
+        .card-info { padding: 1rem; }
+        .card-info .tag { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); }
+        .card-info .name { font-weight: 500; font-size: 1rem; margin-top: 4px; }
+
+        /* --- DETAIL PAGE --- */
+        #detail-view { display: none; }
+        .detail-hdr { margin: 2rem 0 4rem; }
+        .sec-group { margin-bottom: 3rem; }
+        .sec-hdr { 
+            font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent);
+            text-transform: uppercase; border-bottom: 1px solid #333; 
+            padding-bottom: 0.5rem; margin-bottom: 1.5rem; letter-spacing: 2px;
+        }
+
+        .gallery {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 15px;
+        }
+        .img-wrap { 
+            background: #151515; border: var(--border); position: relative; 
+            cursor: zoom-in; overflow: hidden;
+        }
+        .img-wrap img { width: 100%; display: block; transition: 0.3s; }
+        .img-wrap:hover img { opacity: 0.6; transform: scale(1.03); }
+        .img-meta { 
+            position: absolute; bottom: 0; left: 0; padding: 10px; font-size: 0.7rem;
+            font-family: var(--font-mono); background: rgba(0,0,0,0.8); width: 100%;
+            transform: translateY(100%); transition: 0.3s;
+        }
+        .img-wrap:hover .img-meta { transform: translateY(0); }
+
+        /* --- LIGHTBOX --- */
+        #lightbox {
+            position: fixed; inset: 0; background: rgba(0,0,0,0.95);
+            display: none; z-index: 2000; padding: 40px; flex-direction: column;
+            align-items: center; justify-content: center;
+        }
+        #lightbox.open { display: flex; }
+        #lightbox img { max-width: 90%; max-height: 80vh; border: 2px solid #333; }
+        .lb-close { position: absolute; top: 30px; right: 40px; cursor: pointer; font-family: var(--font-mono); color: var(--accent); }
+
+        @media (max-width: 800px) {
+            nav { grid-template-columns: 1fr auto; }
+            .search-container { grid-column: span 2; order: 3; }
+            .grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
 </head>
 <body>
-  <div id="wrapper">
-    <header>
-      <a href="./" style="color: white"><h1>The Cover Archive</h1></a>
-      <input id="searchBar"
-             type="text"
-             placeholder="Search games, consoles, creators..." />
-    </header>
 
-    <nav id="sidebar-left">
-      <h2>Filter by Console</h2>
-      <div id="consoles"></div>
-      <h2>Browse A‑Z</h2>
-      <div id="letters"></div>
+    <nav>
+        <div class="brand" onclick="resetApp()">NM <span>/</span> ARC</div>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="SEARCH_DATABASE_BY_TITLE_OR_YEAR..." oninput="handleSearch()">
+        </div>
+        <div class="nav-actions">
+            <div id="btn-games" class="active" onclick="setView('games')">Games</div>
+            <div id="btn-test" onclick="setView('playlists')">Playlists</div>
+        </div>
     </nav>
 
-    <main id="mainView">
-      <!-- Content injected by JS -->
+    <div class="filter-bar" id="console-filters">
+        </div>
+
+    <main>
+        <div id="home-view">
+            <div id="main-grid" class="grid"></div>
+        </div>
+
+        <div id="detail-view">
+            <div style="cursor:pointer; color:var(--accent); font-family:var(--font-mono); font-size:0.7rem;" onclick="resetApp()">[ BACK_TO_INDEX ]</div>
+            <div class="detail-hdr">
+                <div id="d-meta" style="font-family: var(--font-mono); font-size: 0.8rem; opacity: 0.5;">PLATFORM // YEAR</div>
+                <h1 id="d-title" style="font-size: 4rem; letter-spacing: -2px; line-height: 1;">TITLE</h1>
+            </div>
+            <div id="detail-content"></div>
+        </div>
     </main>
 
-    <aside id="sidebar-right">
-      <h2>Site Stats</h2>
-      <div id="stats"></div>
-      <h2>Recent Games</h2>
-      <ul id="recentList"></ul>
-      <button id="btnRandom">Random Game</button>
-    </aside>
-  </div>
+    <div id="lightbox" onclick="this.classList.remove('open')">
+        <div class="lb-close">[ ESC // CLOSE ]</div>
+        <img id="lb-img">
+        <div id="lb-cap" style="margin-top: 20px; font-family: var(--font-mono); text-align: center;"></div>
+    </div>
 
-  <div id="filters" class="hidden" >
-    <label>Console:
-      <select id="consoleFilter"><option>All</option></select>
-    </label>
-    <label>Letter:
-      <select id="letterFilter"><option>All</option></select>
-    </label>
-  </div>
+    <script>
+        const IMGURL = id => `https://image-assets.m.nintendo.com/${id}?im=a`;
+        let DB = null;
+        let VIEW = 'games';
+        let ACTIVE_CONSOLE = 'all';
+        let QUERY = '';
 
-  <div id="variant-preview" style="display:none;"></div>
+        async function init() {
+            try {
+                const res = await fetch('images.json');
+                DB = await res.json();
+                renderFilters();
+                render();
+            } catch (e) { console.error("Database offline.", e); }
+        }
 
-  <script src="app.js"></script>
+        function renderFilters() {
+            const bar = document.getElementById('console-filters');
+            const consoles = DB.categories.map(c => ({ id: c.id, name: c.name }));
+            bar.innerHTML = `<div class="filter-chip ${ACTIVE_CONSOLE === 'all' ? 'active' : ''}" onclick="setConsole('all')">ALL_SYSTEMS</div>`;
+            consoles.forEach(c => {
+                bar.innerHTML += `<div class="filter-chip ${ACTIVE_CONSOLE === c.id ? 'active' : ''}" onclick="setConsole('${c.id}')">${c.name.toUpperCase()}</div>`;
+            });
+        }
+
+        function render() {
+            const grid = document.getElementById('main-grid');
+            grid.innerHTML = '';
+            
+            if (VIEW === 'games') {
+                DB.categories.forEach(cat => {
+                    if (ACTIVE_CONSOLE !== 'all' && ACTIVE_CONSOLE !== cat.id) return;
+                    
+                    cat.games.forEach(game => {
+                        if (QUERY && !game.title.toLowerCase().includes(QUERY.toLowerCase()) && !game.year.toString().includes(QUERY)) return;
+
+                        const region = game.regions[0];
+                        const el = document.createElement('div');
+                        el.className = 'card';
+                        el.onclick = () => showGame(cat.id, game.id);
+                        el.innerHTML = `
+                            <img src="${IMGURL(region.thumb)}" loading="lazy">
+                            <div class="card-info">
+                                <div class="tag">${cat.id.toUpperCase()} // ${game.year}</div>
+                                <div class="name">${game.title}</div>
+                            </div>
+                        `;
+                        grid.appendChild(el);
+                    });
+                });
+            } else {
+                DB.playlists.forEach(pl => {
+                    if (QUERY && !pl.title.toLowerCase().includes(QUERY.toLowerCase())) return;
+                    const el = document.createElement('div');
+                    el.className = 'card';
+                    el.onclick = () => showPlaylist(pl.id);
+                    el.innerHTML = `
+                        <img src="${IMGURL(pl.banner)}">
+                        <div class="card-info">
+                            <div class="tag">COLLECTION // ${pl.category}</div>
+                            <div class="name">${pl.title}</div>
+                        </div>
+                    `;
+                    grid.appendChild(el);
+                });
+            }
+        }
+
+        function showGame(catId, gameId) {
+            const cat = DB.categories.find(c => c.id === catId);
+            const game = cat.games.find(g => g.id === gameId);
+            const reg = game.regions[0];
+
+            toggleView(false);
+            document.getElementById('d-title').textContent = game.title;
+            document.getElementById('d-meta').textContent = `${cat.name} // RELEASED: ${game.year} // REGION: ${reg.region}`;
+
+            const cont = document.getElementById('detail-content');
+            cont.innerHTML = '';
+
+            // Categorize by Type
+            const groups = {
+                'announcements': reg.announcements || [],
+                'playlistIcons': reg.playlistIcons || [],
+                'artwork': (reg.screenshots || []).filter(s => s.type === 'artwork'),
+                'screenshots': (reg.screenshots || []).filter(s => s.type === 'screenshot')
+            };
+
+            for (const [key, list] of Object.entries(groups)) {
+                if (list.length > 0) {
+                    const sec = document.createElement('div');
+                    sec.className = 'sec-group';
+                    sec.innerHTML = `<div class="sec-hdr">${key}</div><div class="gallery"></div>`;
+                    const gall = sec.querySelector('.gallery');
+                    
+                    list.forEach(img => {
+                        const item = document.createElement('div');
+                        item.className = 'img-wrap';
+                        item.onclick = () => openLB(img.id, img.title);
+                        item.innerHTML = `<img src="${IMGURL(img.id)}" loading="lazy"><div class="img-meta">${img.title}</div>`;
+                        gall.appendChild(item);
+                    });
+                    cont.appendChild(sec);
+                }
+            }
+            window.scrollTo(0,0);
+        }
+
+        function showPlaylist(plId) {
+            const pl = DB.playlists.find(p => p.id === plId);
+            toggleView(false);
+            document.getElementById('d-title').textContent = pl.title;
+            document.getElementById('d-meta').textContent = `PLAYLIST // ${pl.category}`;
+            
+            const cont = document.getElementById('detail-content');
+            cont.innerHTML = `<div class="sec-hdr">Items in Collection</div><div class="gallery"></div>`;
+            const gall = cont.querySelector('.gallery');
+
+            pl.images.forEach(img => {
+                const item = document.createElement('div');
+                item.className = 'img-wrap';
+                item.onclick = () => openLB(img.id, img.title);
+                item.innerHTML = `<img src="${IMGURL(img.id)}"><div class="img-meta">${img.title}</div>`;
+                gall.appendChild(item);
+            });
+        }
+
+        function handleSearch() {
+            QUERY = document.getElementById('search-bar').value;
+            render();
+        }
+
+        function setConsole(id) {
+            ACTIVE_CONSOLE = id;
+            renderFilters();
+            render();
+        }
+
+        function setView(v) {
+            VIEW = v;
+            document.getElementById('btn-games').classList.toggle('active', v === 'games');
+            document.getElementById('btn-playlists').classList.toggle('active', v === 'playlists');
+            document.getElementById('console-filters').style.display = (v === 'games') ? 'flex' : 'none';
+            render();
+        }
+
+        function toggleView(isHome) {
+            document.getElementById('home-view').style.display = isHome ? 'block' : 'none';
+            document.getElementById('detail-view').style.display = isHome ? 'none' : 'block';
+            document.getElementById('console-filters').style.visibility = isHome ? 'visible' : 'hidden';
+        }
+
+        function resetApp() {
+            toggleView(true);
+            window.scrollTo(0,0);
+        }
+
+        function openLB(id, title) {
+            document.getElementById('lb-img').src = IMGURL(id);
+            document.getElementById('lb-cap').textContent = `FILE_REF: ${id} // TITLE: ${title}`;
+            document.getElementById('lightbox').classList.add('open');
+        }
+
+        init();
+    </script>
 </body>
 </html>
