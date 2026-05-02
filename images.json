@@ -1,0 +1,470 @@
+{
+  "categories": [
+    {
+      "id": "nes",
+      "name": "NES",
+      "era": "NES · 1983",
+      "games": [
+        {
+          "id": "1",
+          "title": "Super Mario Bros.",
+          "year": 1985,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "Global",
+              "thumb": "842e4048-d47f-4399-a224-a02dec0c5048",
+"announcements": [
+  { "id": "842e4048-d47f-4399-a224-a02dec0c5048", "title": "Banner" }
+],
+"screenshots": [
+  { "id": "35f265cd-97f4-4478-8a4e-04f96cc5e3e3", "title": "Ground BGM", "type": "screenshot" },
+  { "id": "0ad4cf18-288c-4a0c-b361-de5c10842bb2", "title": "Timer Warning", "type": "screenshot" },
+  { "id": "430d03d6-3c86-4abe-80e7-c0d769580c4e", "title": "\"Hurry Up!\" Ground BGM", "type": "screenshot" },
+  { "id": "4b62dfde-0c6a-4648-9fa6-d12acf222c33", "title": "Course Clear", "type": "screenshot" },
+  { "id": "0bd72220-aefe-47ba-9031-38e297a048a6", "title": "Underground BGM", "type": "screenshot" },
+  { "id": "1a459999-1285-40e3-a304-4bed3a4702cd", "title": "\"Hurry Up!\" Underground BGM", "type": "screenshot" },
+  { "id": "c069271e-c092-4286-a7e2-0f7b9a903dc9", "title": "Invincibility BGM", "type": "screenshot" },
+  { "id": "8294e635-2d2e-4ca2-93f6-0485af486328", "title": "\"Hurry Up!\" Invincibility BGM", "type": "screenshot" },
+  { "id": "fb55cfa5-8cb3-4aff-b6f0-539db631459e", "title": "Player Down", "type": "screenshot" },
+  { "id": "3da9362b-7b44-4ab8-b503-f3f1f0269542", "title": "Game Over", "type": "screenshot" },
+  { "id": "199d34e1-0d8e-4ec6-b70a-0ae19d06ac46", "title": "Underwater BGM", "type": "screenshot" },
+  { "id": "cbc3975d-8556-4fc7-89d0-12f2327fe1ef", "title": "\"Hurry Up!\" Underwater BGM", "type": "screenshot" },
+  { "id": "b1e16279-5d73-44c8-95ee-b031001667c3", "title": "Castle BGM", "type": "screenshot" },
+  { "id": "a548dc8a-a7be-4915-958d-37585ac2de51", "title": "\"Hurry Up!\" Castle BGM", "type": "screenshot" },
+  { "id": "c28824a9-e217-48ff-ba01-4159fc5b2ab7", "title": "World Clear", "type": "screenshot" },
+  { "id": "5937c058-c335-4b1f-a6d5-ff16c22039cf", "title": "Ending", "type": "screenshot" }
+],
+              "playlistIcons": [
+                { "id": "ca47dec6-1956-4222-afba-fe0ecca035bf", "title": "Icon" },
+                { "id": "24cb9cbf-5824-46ad-aa44-3f395d1ef1a6", "title": "Icon (JP)" },
+                { "id": "89f824bd-5549-4d9d-b0e1-ab70dc9a5f93", "title": "Top Tracks" },
+                { "id": "6f2d4ba9-1963-4022-97bc-13d34517ef73", "title": "Top Tracks (JP)" },
+                { "id": "7d3dc90f-d1fb-4c4f-80e6-905e22514870", "title": "Extended-Playback Collection" },
+                { "id": "91333c5b-98a6-441b-9b17-40bf877c7385", "title": "Extended-Playback Collection (JP)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Metroid (Famicom Disk System)",
+          "year": 1986,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "JP",
+              "thumb": "6245f101-7402-4dd8-b307-afa5457456d0",
+"announcements": [
+  { "id": "88469a74-89c6-4e30-8439-e28bb647fa2d", "title": "Recent highlights post" },
+  { "id": "6245f101-7402-4dd8-b307-afa5457456d0", "title": "Banner" }
+],
+"screenshots": [
+  { "id": "b3a0292d-4b41-430e-b980-449bfc3cc6ab", "title": "Title Screen", "type": "screenshot" },
+  { "id": "d3ad7270-9f4b-45f3-9d4d-1162353c445a", "title": "Samus Appears", "type": "screenshot" },
+  { "id": "8aa1eaa3-616d-4254-8e15-77f7f751103b", "title": "Brinstar (Rocky Zone)", "type": "screenshot" },
+  { "id": "ef0aa99b-d5f9-471b-8be6-0e20539a07bc", "title": "Miniboss Hideout I: Kraid", "type": "screenshot" },
+  { "id": "e00843a3-feb4-4e74-8ff3-826a501b2f04", "title": "Norfair (Fire Zone)", "type": "screenshot" },
+  { "id": "0cc48ef2-9732-48a0-8413-4a1be4c158ed", "title": "Miniboss Hideout II: Ridley", "type": "screenshot" },
+  { "id": "904cede2-4fea-403f-a133-ad6cfddf3f6f", "title": "Stillness", "type": "screenshot" },
+  { "id": "df192cae-cbe5-4030-9541-fba5fecb81c9", "title": "Item Obtained", "type": "screenshot" },
+  { "id": "904bbc32-a248-4105-b38b-dcbe3b0c92cb", "title": "Tourian (Central Base)", "type": "screenshot" },
+  { "id": "732b9ce5-46c0-4364-8622-1437f21ae1b2", "title": "Zebetite", "type": "screenshot" },
+  { "id": "a040536b-9289-40be-8828-a6b858d17082", "title": "Escape", "type": "screenshot" },
+  { "id": "27004af0-965f-41fd-ac42-83781e46f07b", "title": "Ending", "type": "screenshot" }
+],
+              "playlistIcons": [
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Metroid",
+          "year": 1987,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "US/EU",
+              "thumb": "519fe49f-13aa-463f-8bee-78cb685ebf6e",
+"announcements": [
+  { "id": "519fe49f-13aa-463f-8bee-78cb685ebf6e", "title": "Banner" }
+],
+"screenshots": [
+  { "id": "11cf7f1b-bef3-4662-ad61-813035b8a15a", "title": "Title Screen", "type": "screenshot" },
+  { "id": "eb8c8da8-d255-4fde-98b4-7f972e2a603b", "title": "Samus Appears", "type": "screenshot" },
+  { "id": "6a0aca2f-db16-4c7a-90d8-29b29e6ee27a", "title": "Brinstar (Rocky Zone)", "type": "screenshot" },
+  { "id": "1e423623-2ebd-4aca-a529-8c15ba46cbe1", "title": "Miniboss Hideout I: Kraid", "type": "screenshot" },
+  { "id": "bd5836e3-19ae-4872-bf9e-4fc14f9db701", "title": "Norfair (Fire Zone)", "type": "screenshot" },
+  { "id": "d9831fc1-10fc-4854-8b87-76d02f8c186a", "title": "Miniboss Hideout II: Ridley", "type": "screenshot" },
+  { "id": "33f114de-79d3-421f-acce-634e323ac74b", "title": "Stillness", "type": "screenshot" },
+  { "id": "d7ad403b-ae4b-4052-a504-97729f95ff79", "title": "Item Obtained", "type": "screenshot" },
+  { "id": "34d336ce-e829-4630-8b47-478f0344a839", "title": "Tourian (Central Base)", "type": "screenshot" },
+  { "id": "1d5671a2-d350-4982-849c-e7a4372cc5b7", "title": "Zebetite", "type": "screenshot" },
+  { "id": "33719e70-7633-4ac1-9768-0afa38429337", "title": "Escape", "type": "screenshot" },
+  { "id": "66fff074-d8a0-44fe-98d2-346902eec2e1", "title": "Ending", "type": "screenshot" }
+],
+              "playlistIcons": [
+              ]
+            }
+          ]
+        }
+        
+        
+        
+      ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "id": "GB",
+      "name": "Game Boy",
+      "era": "GB · 1989",
+      "games": [
+{
+  "id": "4",
+  "title": "Dr. Mario",
+  "year": 1990,
+  "aliasOf": null,
+  "regions": [
+    {
+      "region": "Global",
+      "thumb": "7cfb0f30-3c56-4949-992f-757deaae5107",
+      "announcements": [
+        { "id": "7cfb0f30-3c56-4949-992f-757deaae5107", "title": "Banner" }
+      ],
+      "screenshots": [
+        { "id": "8c68ae9b-91ce-4563-8725-0b4b00bf4566", "title": "Selection Screen", "type": "screenshot" },
+        { "id": "90046f43-1237-4535-af98-ddf23efba507", "title": "Fever", "type": "screenshot" },
+        { "id": "615bfefd-b8be-46ab-815a-c51da332a969", "title": "Game Over", "type": "screenshot" },
+        { "id": "38bd86fd-bb80-4512-a7ee-b75d89b54c77", "title": "Vs. Game Over", "type": "screenshot" },
+        { "id": "1e49ee88-dc7e-4a72-bff9-281710d7224b", "title": "Chill", "type": "screenshot" },
+        { "id": "e72d5b69-3b79-432b-8f65-80882313292c", "title": "Stage Clear", "type": "screenshot" },
+        { "id": "ed0f9b46-24e3-4dc1-8adb-022ad5dcaadf", "title": "Level 20 Low Clear & Ending", "type": "screenshot" },
+        { "id": "e730f22d-d018-4cd5-8bda-7aaaecda60d1", "title": "Level 20 Hi Clear (UFO) & Ending", "type": "screenshot" }
+      ],
+      "playlistIcons": []
+    }
+  ]
+},
+{
+  "id": "5",
+  "title": "Kirby's Dream Land",
+  "year": 1992,
+  "aliasOf": null,
+  "regions": [
+    {
+      "region": "Global",
+      "thumb": "7702db5c-79a9-4bef-941a-82a87c11fe49",
+      "announcements": [
+        { "id": "7702db5c-79a9-4bef-941a-82a87c11fe49", "title": "Banner" }
+      ],
+      "screenshots": [
+        { "id": "a7bfe642-a0d6-4258-8f33-e3be8cd41fee", "title": "Welcome To Dream Land", "type": "screenshot"  },
+        { "id": "7db12d75-c671-4d69-abba-ee9255557d15", "title": "Welcome To Dream Land (JP)", "type": "screenshot"  },
+        { "id": "1206da25-3b2e-46e0-b69b-f7e5a373d7b6", "title": "Green Greens", "type": "screenshot" },
+        { "id": "08fb09d4-73b8-41a4-a00b-b3d14876b536", "title": "Boss Theme", "type": "screenshot" },
+        { "id": "bd509245-a9f7-40ce-a57a-09960b53058e", "title": "Sparkling Stars", "type": "screenshot" },
+        { "id": "7f403d65-0b7a-4ba4-85f9-63d33e745777", "title": "Kirby Dance", "type": "screenshot" },
+        { "id": "6d5e8635-84a2-4412-a2fe-18e51a8c50ab", "title": "Castle Lololo", "type": "screenshot" },
+        { "id": "55b5b21d-6752-47fb-8486-9d71a44934a5", "title": "Invincible", "type": "screenshot" },
+        { "id": "3e7db8a6-3dae-48bc-9c16-d3a26b2e9685", "title": "Float Islands", "type": "screenshot" },
+        { "id": "ecc3dcf7-b8e4-4d00-a514-a6ba164a8744", "title": "Shooting", "type": "screenshot" },
+        { "id": "1d160371-6bcc-4a8b-9e29-a1f432c45cda", "title": "Bubbly Clouds", "type": "screenshot" },
+        { "id": "380cb2e3-6b45-4004-8575-181c248c7ad8", "title": "Defeat", "type": "screenshot" },
+        { "id": "b53ea132-8bde-473f-bcc0-fda39627d1f6", "title": "Game Over", "type": "screenshot" },
+        { "id": "34d60e5f-8b49-483a-9f0a-796214d3534a", "title": "Boss Game Select", "type": "screenshot" },
+        { "id": "3e4fff17-b46d-4a82-b750-516bb76077fe", "title": "Mt. DeDeDe", "type": "screenshot" },
+        { "id": "69ec040e-4b1b-4384-90a1-01325fe8ee0d", "title": "A New Wind for Tomorrow", "type": "screenshot" }
+      ],
+      "playlistIcons": []
+    }
+  ]
+}
+]
+},
+    {
+      "id": "snes",
+      "name": "Super NES",
+      "era": "SNES · 1990",
+      "games": [
+{
+  "id": "6",
+  "title": "Donkey Kong Country",
+  "year": 1994,
+  "aliasOf": null,
+  "regions": [
+    {
+      "region": "Global",
+      "thumb": "f5bc77c2-8d0e-4d11-ba56-1c111791003b",
+      "announcements": [
+        { "id": "f5bc77c2-8d0e-4d11-ba56-1c111791003b", "title": "Banner" }
+      ],
+"screenshots": [
+  { "id": "a6170142-506d-41a5-808a-f0586cec0949", "title": "Opening Fanfare", "type": "screenshot" },
+  { "id": "b89381f0-957d-4cb9-9792-7e269062f7b4", "title": "Theme", "type": "screenshot" },
+  { "id": "74a39439-2cd5-4473-ab42-435f9633004f", "title": "Theme (JP)", "type": "screenshot" },
+  { "id": "5d43a184-e22c-4c3b-8499-8e31ceb175a3", "title": "Simian Segue", "type": "screenshot" },
+  { "id": "1f366861-5f96-468e-a6c8-c3ade769c476", "title": "DK Island Swing", "type": "screenshot" },
+  { "id": "0f6229cf-9f1a-4712-a811-d0765c747aaf", "title": "Cave Dweller Concert", "type": "screenshot" },
+  { "id": "4794a1ce-af50-4c83-a3e0-57f23318c760", "title": "Aquatic Ambiance", "type": "screenshot" },
+  { "id": "5ba3f6d0-c9a3-4ba8-b192-654e9d16ab6f", "title": "Well Done", "type": "screenshot" },
+  { "id": "aaeedc7a-f5f2-4d59-b9dc-33565d79dbc0", "title": "Cranky's Theme", "type": "screenshot" },
+  { "id": "3221992b-0f26-4256-af36-20be8f807b90", "title": "Life in the Mines", "type": "screenshot" },
+  { "id": "8cfcf4af-3db6-4943-8169-f487aab91c2d", "title": "Mine Cart Madness", "type": "screenshot" },
+  { "id": "4131bafc-ff2c-4168-9407-28788db6753f", "title": "Misty Menace", "type": "screenshot" },
+  { "id": "7e6e1387-63a7-44b7-b35b-41cf7806e38f", "title": "Voices of the Temple", "type": "screenshot" },
+  { "id": "9d454738-05cd-41f5-97cf-c33a05236b7a", "title": "Lost a Balloon", "type": "screenshot" },
+  { "id": "17e63675-9882-4dbb-9b87-7486da26d972", "title": "Funky's Fugue", "type": "screenshot" },
+  { "id": "b1f53ebc-c96a-41ed-93de-b49b87cfb256", "title": "Forest Frenzy", "type": "screenshot" },
+  { "id": "f1fccd7e-cf00-4c7a-8b09-de45fa0dbe0a", "title": "Treetop Rock", "type": "screenshot" },
+  { "id": "c09f1117-1a56-43dd-810b-267eb4bff288", "title": "Bonus Room Blitz", "type": "screenshot" },
+  { "id": "4ddc7d4c-4ff8-4c49-a9f4-7b5d7f833954", "title": "Better Luck Next Time", "type": "screenshot" },
+  { "id": "179a387a-1f6e-45fb-aebb-22629ede415c", "title": "Candy's Love Song", "type": "screenshot" },
+  { "id": "9440238f-4cee-4e64-8b48-d230873c59eb", "title": "Northern Hemispheres", "type": "screenshot" },
+  { "id": "110e563f-3272-46dd-9fde-53f54333bb59", "title": "Ice Cave Chant", "type": "screenshot" },
+  { "id": "17d9de23-f0ac-47d6-a78a-5c543a28d83e", "title": "Fear Factory", "type": "screenshot" },
+  { "id": "cfc4ae90-96e4-473a-b39f-80c795f15a12", "title": "Bad Boss Boogie", "type": "screenshot" },
+  { "id": "02db3099-9d71-4a10-a85c-649b448eaf40", "title": "K. Rool's Cacophony", "type": "screenshot" },
+  { "id": "3c5a4dfe-879b-4768-9c5f-856875b7e216", "title": "Gang-Plank Galleon", "type": "screenshot" },
+  { "id": "84cc20c5-47a9-4054-93ae-f27121adbb28", "title": "The Credits Concerto", "type": "screenshot" }
+],
+      "playlistIcons": []
+    }
+  ]
+},
+
+{
+  "id": "7",
+  "title": "Super Mario World 2: Yoshi's Island",
+  "year": 1995,
+  "aliasOf": null,
+  "regions": [
+    {
+      "region": "Global",
+      "thumb": "5380888e-6c83-484f-aaf2-a7111b4ab209",
+      "announcements": [
+        { "id": "5380888e-6c83-484f-aaf2-a7111b4ab209", "title": "Banner" }
+      ],
+"screenshots": [
+  { "id": "d1aee232-ca67-4374-b1a7-e64444506616", "title": "Nintendo Presents...", "type": "screenshot" },
+  { "id": "4e6f6c4f-769e-4802-8a1a-9846623d88b9", "title": "Opening Melody", "type": "screenshot" },
+  { "id": "ad3ddd72-8f0b-4820-bb34-fb6e2078d351", "title": "Yoshi's Island", "type": "screenshot" },
+  { "id": "bf465e32-3117-464e-9740-63099c94dc4e", "title": "Yoshi's Island (JP)", "type": "screenshot" },
+  { "id": "21df6960-1d50-4c7c-bc38-bf99bb05b1d8", "title": "The Journey Begins", "type": "screenshot" },
+  { "id": "2334c102-3951-4fb4-adc4-b1652362fa5a", "title": "Practice Stage", "type": "screenshot" },
+  { "id": "a90b712e-ec01-4561-9f3d-2aab180e71d2", "title": "Stage Start", "type": "screenshot" },
+  { "id": "ef71ea59-e06f-4298-b57b-0cab6a642d53", "title": "Flower Field BGM", "type": "screenshot" },
+  { "id": "28837778-716b-4ce1-8a44-27804050bd11", "title": "Goal!", "type": "screenshot" },
+  { "id": "47b6ee70-d08f-464d-92a7-fc56d54611c4", "title": "Underground BGM", "type": "screenshot" },
+  { "id": "89c3c1e0-e390-4555-aa2f-48bb91d8325a", "title": "Castles & Forts BGM", "type": "screenshot" },
+  { "id": "5f117460-6656-4d65-a22f-332c17f6ef4d", "title": "Kamek's Theme", "type": "screenshot" },
+  { "id": "d9121475-848f-427b-863c-2aa2debf8657", "title": "Stage Boss", "type": "screenshot" },
+  { "id": "151ea454-eae7-485e-93c4-f04862b0af6d", "title": "Athletic BGM", "type": "screenshot" },
+  { "id": "4988e0a5-f55a-44fa-a2d6-fda13d8afa6e", "title": "Ground BGM", "type": "screenshot" },
+  { "id": "c75c0068-9f9e-4ffc-8076-3a71dab7fb47", "title": "Yoshi Down!", "type": "screenshot" },
+  { "id": "af1eb9af-a6f3-4e5f-b932-7c5e06fb9145", "title": "Game Over", "type": "screenshot" },
+  { "id": "d7907dff-e6e7-4fb1-9022-d48ac94df201", "title": "In the Boss Room", "type": "screenshot" },
+  { "id": "29c02ccd-922d-4170-834a-fb86bb5271cc", "title": "Big Boss BGM", "type": "screenshot" },
+  { "id": "274b256c-ebed-48ed-a513-20619d9e2f19", "title": "Big Boss Clear", "type": "screenshot" },
+  { "id": "4e905a59-5d00-4d18-bdc8-4f7c9123f8ff", "title": "Map Screen", "type": "screenshot" },
+  { "id": "df3686c2-d325-4372-8699-46bb33401243", "title": "Bonus Challenge", "type": "screenshot" },
+  { "id": "e642e331-7128-4994-bc78-5a4b8859aad3", "title": "Powerful Mario", "type": "screenshot" },
+  { "id": "fa073f44-44c2-493f-98aa-9e0637085d5b", "title": "Bowser", "type": "screenshot" },
+  { "id": "93090e49-916e-414a-a6c3-9cf6eb1b2a91", "title": "Bowser Defeated", "type": "screenshot" },
+  { "id": "b4ca3bb4-5c20-41fc-b7a5-e40a0a63914d", "title": "Rescuing Luigi", "type": "screenshot" },
+  { "id": "748a1dc5-91ad-4ab7-9dfe-50a562885e8d", "title": "Ending", "type": "screenshot" }
+],
+      "playlistIcons": []
+    }
+  ]
+}
+
+
+
+
+
+
+      ]
+    },
+    
+    
+    
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "era": "N64 · 1996",
+      "games": [
+{
+  "id": "8",
+  "title": "Star Fox 64",
+  "year": 1997,
+  "aliasOf": null,
+  "regions": [
+    {
+      "region": "Global",
+      "thumb": "4b1038b6-7cd2-40d0-b650-493aea41209a",
+      "announcements": [
+        { "id": "4b1038b6-7cd2-40d0-b650-493aea41209a", "title": "Banner" }
+      ],
+"screenshots": [
+  { "id": "2dda3131-1d1c-4462-8582-6745f1782a47", "title": "Opening Theme", "type": "screenshot" },
+  { "id": "4f192129-9ffa-4a21-983d-fee6d67a2ff3", "title": "Title Theme", "type": "screenshot" },
+  { "id": "eec4db00-1713-4b43-82f0-cefda3403e0b", "title": "Title Theme (JP)", "type": "screenshot" },
+  { "id": "bfbe4ca6-4912-43ec-a007-98bc88f90354", "title": "Select Theme", "type": "screenshot" },
+  { "id": "41f8eadf-6f2a-484e-a6e5-5d8e7ac8ea57", "title": "Map Theme", "type": "screenshot" },
+  { "id": "9a8e4353-a7fb-44a3-8311-823f3e8e2ace", "title": "VS Select", "type": "screenshot" },
+  { "id": "bc61fb0b-ebc0-4051-a5eb-97b793625033", "title": "Demo 1", "type": "screenshot" },
+  { "id": "957563b9-6207-4409-b0f2-165493475db1", "title": "Demo 2", "type": "screenshot" },
+  { "id": "61717afa-c841-4aef-b9d2-4bf211614d74", "title": "Training Mode", "type": "screenshot" },
+  { "id": "4e60f276-fbf0-45bc-8b06-c47ad78c3562", "title": "Corneria", "type": "screenshot" },
+  { "id": "3a9a1811-ffd1-48c3-9245-a3e2c354a067", "title": "Fichina & Sector Z", "type": "screenshot" },
+  { "id": "a90cb056-7973-4332-b989-6db8f196adc0", "title": "Meteo", "type": "screenshot" },
+  { "id": "8041ea4d-d04a-43fd-b7b6-f23603551992", "title": "Sector Y & Solar", "type": "screenshot" },
+  { "id": "91f41692-1c30-40d9-a961-9695ebfcea1b", "title": "Katina", "type": "screenshot" },
+  { "id": "bf73eeb4-7425-4880-91c6-8cc95aebeb76", "title": "Aquas", "type": "screenshot" },
+  { "id": "4b170ce1-9c00-4709-bbf6-ba25a0bace26", "title": "Sector X", "type": "screenshot" },
+  { "id": "a82f8156-db6a-4c71-b2ca-713dd2990faa", "title": "Zoness", "type": "screenshot" },
+  { "id": "c7583fd4-77d5-4693-aa3d-ccd502fa143a", "title": "Titania & Macbeth", "type": "screenshot" },
+  { "id": "13c0c74a-6b44-4108-8cf6-bbae06a020c2", "title": "Area 6", "type": "screenshot" },
+  { "id": "82047bd8-b181-4de2-aadd-31fb4478c00e", "title": "Bolse", "type": "screenshot" },
+  { "id": "1d501ee6-ed10-40cd-8100-b75de7092cec", "title": "Venom", "type": "screenshot" },
+  { "id": "0d8052e2-3673-4cc0-ae81-5023fcde779e", "title": "Warp", "type": "screenshot" },
+  { "id": "2d81b767-b913-443c-8d4c-9e78240268f1", "title": "I'll Go It Alone", "type": "screenshot" },
+  { "id": "91a7b7f3-25b2-4d63-a60b-9a340ddad8fd", "title": "Underground Base", "type": "screenshot" },
+  { "id": "1518f204-b4a5-42eb-a901-dfec4ba871a6", "title": "Star Wolf's Theme", "type": "screenshot" },
+  { "id": "3d929b56-13ce-4ecd-8bb5-d2c0e0efa0d5", "title": "Boss Battle 1", "type": "screenshot" },
+  { "id": "cd4cd0d6-1b44-41d2-85f8-1a358d4a0da8", "title": "Boss Battle 2", "type": "screenshot" },
+  { "id": "a8286570-2ec8-49d8-917e-bdd4b266df1c", "title": "Boss Battle 3", "type": "screenshot" },
+  { "id": "ab30ec7a-2926-4768-91ae-1df38ba97809", "title": "Andross Battle", "type": "screenshot" },
+  { "id": "df5292e1-75fe-49bf-a058-a0a2a6e49f48", "title": "Final Battle", "type": "screenshot" },
+  { "id": "918e1eed-eb9c-4f93-b48b-cbb05a01a851", "title": "VS Battle 1", "type": "screenshot" },
+  { "id": "459be609-36c1-42e6-8cbb-18291ba2833e", "title": "VS Battle 2", "type": "screenshot" },
+  { "id": "cd535a15-0fef-46d2-b665-53f2ae028bc4", "title": "Bill's Theme", "type": "screenshot" },
+  { "id": "aafef8c2-c4b9-4919-90cf-20e964904a43", "title": "Katt's Theme", "type": "screenshot" },
+  { "id": "a8a60157-f3af-40ff-8d0f-c2d292eef134", "title": "Mission Complete", "type": "screenshot" },
+  { "id": "f1224eac-00ca-40c6-915d-b46c2f30ee11", "title": "Mission Failed", "type": "screenshot" },
+  { "id": "3bf4d38e-5180-4027-9e4e-fe4ed1ff8c86", "title": "Player Down", "type": "screenshot" },
+  { "id": "9cbc6ca7-e955-4f81-88b9-c8c363015898", "title": "Game Over", "type": "screenshot" },
+  { "id": "4d699f0b-74fe-414f-91f4-ccdd6c7d760b", "title": "All Clear", "type": "screenshot" },
+  { "id": "6b64f0dc-27f6-4123-914b-5ae31d645dc5", "title": "Credits Theme", "type": "screenshot" }
+],
+      "playlistIcons": []
+    }
+  ]
+},
+
+
+
+        {
+          "id": "oot",
+          "title": "Ocarina of Time",
+          "year": 1998,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "US/EU",
+              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
+              "screenshots": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Key Visual", "type": "artwork" },
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Kokiri Forest", "type": "screenshot" }
+              ],
+              "announcements": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Feature Banner" }
+              ],
+              "playlistIcons": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Playlist Icon" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mk64",
+          "title": "Mario Kart 64",
+          "year": 1996,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "US/EU",
+              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
+              "screenshots": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Key Visual", "type": "artwork" },
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Rainbow Road", "type": "screenshot" }
+              ],
+              "announcements": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Announcement Banner" }
+              ],
+              "playlistIcons": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Playlist Icon" }
+              ]
+            },
+            {
+              "region": "JP",
+              "thumb": "d7431d58-3903-4239-b751-a6cd85cec005",
+              "screenshots": [
+                { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "JP Box Art", "type": "artwork" }
+              ],
+              "announcements": [],
+              "playlistIcons": []
+            }
+          ]
+        }
+      ]
+    }
+
+  ],
+  "playlists": [
+    {
+      "id": "nes-selects",
+      "title": "NES Selects",
+      "description": "The best of the 8-bit era",
+      "category": "Nintendo Entertainment System",
+      "banner": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "icon": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "images": [
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Feature Art 1", "type": "artwork" },
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Feature Art 2", "type": "artwork" }
+      ]
+    },
+    {
+      "id": "snes-selects",
+      "title": "SNES Selects",
+      "description": "16-bit classics, curated",
+      "category": "Super Nintendo",
+      "banner": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "icon": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "images": [
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "SNES Feature Art", "type": "artwork" }
+      ]
+    },
+    {
+      "id": "zelda-essentials",
+      "title": "Zelda Essentials",
+      "description": "Across all adventures",
+      "category": "The Legend of Zelda",
+      "banner": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "icon": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "images": [
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Key Artwork", "type": "artwork" },
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Series Logo", "type": "artwork" }
+      ]
+    },
+    {
+      "id": "mario-marathon",
+      "title": "Mario Marathon",
+      "description": "Every Mario, every era",
+      "category": "Super Mario",
+      "banner": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "icon": "d7431d58-3903-4239-b751-a6cd85cec005",
+      "images": [
+        { "id": "d7431d58-3903-4239-b751-a6cd85cec005", "title": "Feature Art", "type": "artwork" }
+      ]
+    }
+  ]
+}
