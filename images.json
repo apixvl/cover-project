@@ -744,7 +744,94 @@
               ]
             }
           ]
+        },
+        
+        {
+          "id": "13",
+          "title": "Tomodachi Collection",
+          "year": 2009,
+          "aliasOf": null,
+          "regions": [
+            {
+              "region": "JP",
+              "thumb": "6273290b-536c-4a95-a37f-c8d8db35f6ee",
+              "announcements": [
+                { "id": "6273290b-536c-4a95-a37f-c8d8db35f6ee", "title": "Banner" }
+              ],
+"screenshots": [
+  { "id": "a5f25e2c-6db7-4407-ad77-b96f94c90ade", "title": "Making a Friend", "type": "screenshot" },
+  { "id": "dfdaa3bb-37ca-41b1-9bd5-83ed5ed84262", "title": "Apartment Hangout", "type": "screenshot" },
+  { "id": "bfa52a94-7873-4c4c-95d6-309668b1d017", "title": "Afternoon on the Island", "type": "screenshot" },
+  { "id": "7636ea39-ca88-4559-bf53-99d5330ceeea", "title": "Nighttime on the Island", "type": "screenshot" },
+  { "id": "f0e1e964-1c59-4774-9bfc-ff5e583573ce", "title": "News Flash", "type": "screenshot" },
+  { "id": "42e06e8e-0452-4355-9c79-2a6294fca04a", "title": "Mii News Report", "type": "screenshot" },
+  { "id": "f1cee583-721e-447e-aaad-368bb421db9d", "title": "Food Mart", "type": "screenshot" },
+  { "id": "e8d008b6-a0ca-444f-98ba-f6ead5cf8790", "title": "Clothing Shop", "type": "screenshot" },
+  { "id": "3c83d11d-db44-4e31-83a1-d0f9ded557ac", "title": "Interiors Shop", "type": "screenshot" },
+  { "id": "d8c13aa7-955a-407e-a341-8aa46c9c10d8", "title": "Majority Rule", "type": "screenshot" },
+  { "id": "5ed717ee-2df3-4019-886b-ac628f210a46", "title": "Compatibility Tester", "type": "screenshot" },
+  { "id": "5d9523ab-9d24-4804-9194-50984f1c8f60", "title": "Career Counselor", "type": "screenshot" },
+  { "id": "9df39e52-43de-481c-807c-30fb990d7de2", "title": "Q&A", "type": "screenshot" },
+  { "id": "41fc4e04-0314-4da0-868a-b02f8cb5a250", "title": "Let's Play a Game", "type": "screenshot" },
+  { "id": "7d17be9a-6dc4-4bc9-8582-126ca5ab1048", "title": "Ballad: The Past 50 Years", "type": "screenshot" },
+  { "id": "24386ecf-20bf-48a8-b5b4-6191396c1dd3", "title": "Rap: Hot Track", "type": "screenshot" },
+  { "id": "d2b7f022-a12b-4359-a9f3-38a4689cf730", "title": "Mood Music: Rain-Soaked Streets", "type": "screenshot" },
+  { "id": "52eda7d9-583e-45a3-ac10-afe261e83e49", "title": "J-Pop: To a New Future", "type": "screenshot" },
+  { "id": "e29c5e7e-ece5-42a3-b9de-8ff1cca58038", "title": "Metal: Unremitted Desire", "type": "screenshot" },
+  { "id": "ae2c1dac-d92c-4065-a897-cf32df4db3cf", "title": "Pop: Flitter-Flutter Days", "type": "screenshot" },
+  { "id": "56a5e7fb-1d95-4fdb-8eed-316861e123e5", "title": "Forming a Friendship", "type": "screenshot" },
+  { "id": "0cefc422-e421-47cd-a1be-4abd6379259a", "title": "Fixing a Friendship", "type": "screenshot" },
+  { "id": "d49fbaca-b1d4-438b-969a-32c34b0faa0d", "title": "Fracturing a Friendship", "type": "screenshot" },
+  { "id": "d87aa08d-0175-4d51-9b6e-3e34c645abaa", "title": "Pent-Up Passion", "type": "screenshot" },
+  { "id": "01a394ec-b08d-4695-9bfb-064e1ca0e29d", "title": "Love Requited", "type": "screenshot" },
+  { "id": "905a33eb-3412-42c0-8091-d61c2d624ac9", "title": "Love Rejected", "type": "screenshot" },
+  { "id": "2c1c4f71-7635-4154-a08a-89a2c64b9e08", "title": "Stewing in Rejection", "type": "screenshot" },
+  { "id": "0544bb31-326c-4b78-a4cc-0f9d7c325b8c", "title": "Married No More", "type": "screenshot" },
+  { "id": "ab7c0090-50d4-4a23-9467-c1c31b1302f5", "title": "Separating with a Sweetheart", "type": "screenshot" },
+  { "id": "2dc7be91-c47e-443b-8e0c-11d150a56b22", "title": "All-Time Favorite", "type": "screenshot" },
+  { "id": "dda78c6a-7be4-4eef-a677-33b25ec52411", "title": "Loved It", "type": "screenshot" },
+  { "id": "14d4acbc-7ca4-4eb9-b78b-f82d2a34394f", "title": "Really Liked It", "type": "screenshot" },
+  { "id": "d3ce1a30-e141-4abb-aa23-d05628eb6d4f", "title": "Liked It", "type": "screenshot" },
+  { "id": "e9d2f01c-e510-499e-9138-9ac1b2916c0b", "title": "Didn't Really Like It", "type": "screenshot" },
+  { "id": "6cc5b6d3-5a18-4691-ba16-dccadf10a6e6", "title": "Didn't Like It at All", "type": "screenshot" },
+  { "id": "b780fab6-ab5a-42cd-918f-1ba91f08ceac", "title": "Thought It Was the Worst", "type": "screenshot" },
+  { "id": "000acded-ecef-42df-8582-70b1add9ab4e", "title": "The Medicine Worked", "type": "screenshot" },
+  { "id": "660cc2e6-7045-4f7f-9071-0bc6317e791f", "title": "Back on Your Feet", "type": "screenshot" },
+  { "id": "1c0144c1-67bf-4552-9dce-568a6ee9e6d2", "title": "Town Hall", "type": "screenshot" },
+  { "id": "b5f50aab-4414-47eb-97f6-4e5d3de6d695", "title": "Save Screen", "type": "screenshot" },
+  { "id": "379ed55e-727f-4004-8e44-55fc86f7a9f8", "title": "Music Box: Making a Friend", "type": "screenshot" },
+  { "id": "cbe23ff8-bf7b-47a3-8c21-2f73187eee23", "title": "Music Box: Afternoon on the Island", "type": "screenshot" },
+  { "id": "41e679b9-9600-4d09-911e-75032ba05462", "title": "Music Box: Food Mart", "type": "screenshot" },
+  { "id": "4372bb2d-7633-4e82-806e-c9f572d2ff53", "title": "Music Box: Compatibility Tester", "type": "screenshot" },
+  { "id": "19358770-8834-4768-87ee-3bcdcaa5b146", "title": "Music Box: Mii News Report", "type": "screenshot" },
+  { "id": "ed028c58-1345-4558-a57e-6e0e64944e17", "title": "Music Box: Career Counselor", "type": "screenshot" },
+  { "id": "819871d8-71db-4cc5-b730-f9c033c1e44c", "title": "Street Band: Cheerful Tango", "type": "screenshot" },
+  { "id": "8c38524d-f228-4651-b14d-581e35c2a50e", "title": "Street Band: Jaunty Allegro", "type": "screenshot" },
+  { "id": "9e0237f4-562c-4c09-b17e-008856dbb5e1", "title": "Street Band: Joyful Waltz", "type": "screenshot" },
+  { "id": "dbc67911-34c5-4e95-9047-efcdacf16313", "title": "Street Band: Refreshing Bossa Nova", "type": "screenshot" },
+  { "id": "41609a0b-a769-494f-8e38-34f7d5162f13", "title": "Street Band: Heartwarming Folk Dance", "type": "screenshot" },
+  { "id": "0c39a849-1029-40aa-af93-d75b04f539f1", "title": "Street Band: Somber Waltz", "type": "screenshot" },
+  { "id": "638ac017-1bc9-430b-9b3e-33037bd63bba", "title": "Vacation: Okinawa", "type": "screenshot" },
+  { "id": "0cb77092-657a-43df-9d17-44c64479215f", "title": "Vacation: Hawaii", "type": "screenshot" },
+  { "id": "ad506286-0748-4a02-9008-519d5c3f88ac", "title": "Vacation: Hong Kong/Shanghai", "type": "screenshot" },
+  { "id": "c186dc18-a591-4476-ae23-5c5f946588e7", "title": "Vacation: Thailand", "type": "screenshot" },
+  { "id": "a9ce95c6-3b68-4c36-8a21-817e237333b6", "title": "Vacation: Italy", "type": "screenshot" },
+  { "id": "370c3faf-0545-45dd-b4aa-92ef9bde692d", "title": "Vacation: France", "type": "screenshot" },
+  { "id": "d7366cfd-b9f4-4db9-8b89-2ad18acfb68b", "title": "Vacation: Spain", "type": "screenshot" },
+  { "id": "335633de-56b1-4fd2-b0ea-f9c78a56c8db", "title": "Vacation: Kyoto", "type": "screenshot" },
+  { "id": "aceebb5f-d82e-4a5c-b367-b8a3c76eb24c", "title": "Tying the Knot", "type": "screenshot" },
+  { "id": "4f74b099-0d31-4a24-8469-f8e6e998f98e", "title": "Staff Credits", "type": "screenshot" }
+],
+              "playlistIcons": [
+              ]
+            }
+          ]
         }
+        
+        
+        
+        
+        
       ]
     }
 
